@@ -71,7 +71,6 @@ cuvs-cu12
 cvxopt
 cvxpy
 cycler
-cyipopt
 cymem
 Cython
 dask
@@ -81,7 +80,6 @@ dask-expr
 dataproc-spark-connect
 datascience
 db-dtypes
-dbus-python
 debugpy
 decorator
 defusedxml
