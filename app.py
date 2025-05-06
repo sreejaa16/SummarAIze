@@ -204,7 +204,7 @@ elif st.session_state.page == 'main':
 # ─────────────────────────────────────────────────────────────────────────────
 # 6) EXPOSE VIA NGROK (ONLY WHEN RUN AS SCRIPT)
 # ─────────────────────────────────────────────────────────────────────────────
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # # kill any old tunnels
     # ngrok.kill()
     # public_url = ngrok.connect(8501)
