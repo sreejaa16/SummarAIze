@@ -126,7 +126,6 @@ fsspec
 future
 gast
 gcsfs
-GDAL
 gdown
 geemap
 geocoder
