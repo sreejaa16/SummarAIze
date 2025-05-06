@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import os, uuid, shutil, asyncio
 from ffmpeg import input as ffInput, output as ffOutput, probe
 import whisper, yt_dlp, cv2, numpy as np, torch
