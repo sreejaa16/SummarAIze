@@ -8,7 +8,7 @@ from transformers import pipeline
 from detoxify import Detoxify
 from sentence_transformers import SentenceTransformer
 import streamlit as st
-from pyngrok import ngrok
+# from pyngrok import ngrok
 
 # ─────────────────────────────────────────────────────────────────────────────
 # 1) STREAMLIT PAGE CONFIG
@@ -205,8 +205,8 @@ elif st.session_state.page == 'main':
 # 6) EXPOSE VIA NGROK (ONLY WHEN RUN AS SCRIPT)
 # ─────────────────────────────────────────────────────────────────────────────
 if __name__ == '__main__':
-    # kill any old tunnels
-    ngrok.kill()
-    public_url = ngrok.connect(8501)
-    print("👉 Streamlit URL:", public_url)
-    st.write("App running at:", public_url)
+    # # kill any old tunnels
+    # ngrok.kill()
+    # public_url = ngrok.connect(8501)
+    # print("👉 Streamlit URL:", public_url)
+    # st.write("App running at:", public_url)
