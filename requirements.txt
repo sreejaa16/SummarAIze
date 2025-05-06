@@ -101,7 +101,6 @@ easydict
 editdistance
 eerepr
 einops
-en_core_web_sm
 entrypoints
 et_xmlfile
 etils
