@@ -96,7 +96,7 @@ elif st.session_state.page == 'main':
         asyncio.set_event_loop(asyncio.new_event_loop())
         emb = SentenceTransformer('all-MiniLM-L6-v2')
         kw_model = KeyBERT(model=emb)
-        whisper_model = whisper.load_model("small")
+        whisper_model = whisper.load_model("small", device=device)
         tox = Detoxify('original')
         sent = pipeline(
             'sentiment-analysis',
